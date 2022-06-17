@@ -2,7 +2,7 @@
 #include <iostream>
 #include "api/html_writer.hpp"
 #include <string>
-using namespace html_writer;
+
 void OpenDocument()
 {
     std::cout << "<!DOCTYPE html>\n<html>" << std::endl;
