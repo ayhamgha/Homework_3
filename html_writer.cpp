@@ -27,3 +27,14 @@ void CloseBody()
 {
     std::cout << "</body>" << std::endl;
 }
+void OpenRow()
+{
+    std::cout << "<div class=\"row\">" << std::endl;
+}
+void CloseRow()
+{
+    std::cout << "</div>" << std::endl;
+}
+void AddImage(const std::string &img_path, float score, bool highlight = false)
+{
+}
